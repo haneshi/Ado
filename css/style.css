@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;700;900&display=swap');
+
+/* font-family: 'Abhaya Libre', serif; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Noto Serif KR', serif; */
+
+
+* {margin: 0; padding: 0; border: 0;}
+ul {list-style: none;}
+a {text-decoration: none;}
+
+body {z-index: -99;}
+
+
+#wrap {width: 1920px; margin: auto;}
+
+
+
+#header {width: 1920px; height: 220px; background-color: #28c401;}
+
+.top_logo {width: 135px; height: 135px; float: left; margin-right: 15px; margin-top: 45px; margin-left: 45px;}
+.top_logo img {width: 100%; height: 100%; text-align: left;}
+
+#top_fnb {width: 216px; height: 130px; font-family: 'Abhaya Libre', serif; float: left; font-size: 30px; margin-top: 45px;}
+#top_fnb p:first-child {margin-bottom: 30px;}
+
+
+#header ul {width: 1304px; height: 220px; display: flex; float: right; justify-content: space-between; align-items: center; margin-right: 45px;}
+#header ul li {font-family: 'Abhaya Libre', serif; font-size: 59px;}
+#header ul li a {color: #fff;}
+#header ul li a::after {content: "|"; margin-left: 40px; color: #fff;}
+#header ul li a:hover {color: #464e2e;}
+
+#header ul li:last-child a::after {content: "";}
+
+
+
+
+
+
+
+
+
+
+
+
+/* about 영역 */
+
+#about {width: 1670px; height: 700px; background-color: #0000ff20; float: left; padding: 40px 40px; box-sizing: border-box; background-image: url(../img/ado_back.jpg); background-size: cover; margin-bottom: 30px;}
+
+#about_container {width: 100%; height: 100%; background-color: #fff; padding: 40px 40px; box-sizing: border-box;}
+
+.about_title {font-size: 59px; letter-spacing: 2px; font-family: 'Noto Serif KR', serif; color: #5c5c5c; margin-bottom: 40px; font-weight: 700;}
+.about_title p {font-size: 45px;}
+
+.about_text {font-size: 24px; line-height: 2.5; color: #5c5c5c; font-family: 'Noto Serif KR', serif; font-weight: 400;}
+
+
+
+
+
+
+
+
+
+
+
+/* Contact 영역 */
+
+#contact {width: 1670px; height: 700px; background-color: #0000ff20; float: left; padding: 40px 40px; box-sizing: border-box; background-image: url(../img/ado_back.jpg); background-size: cover; margin-bottom: 30px;}
+
+.contact_container {width: 100%; height: 100%; background-color: #ccc; text-align: center; position: relative;}
+.contact_container ul {display: flex; width: 600px; justify-content: space-between; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+.contact_container ul li i {font-size: 59px; color: #fff; transition: .4s;}
+.contact_container ul li i:hover {transform: scale(1.3);}
+.contact_container p {font-size: 59px; font-family: 'Abhaya Libre', serif; position: absolute; top: 60%; left: 50%; transform: translateX(-50%);}
+.contact_container p a {color: #fff;}
+
+
+
+
+
+
+
+/* Signature 영역 */
+
+#signature {width: 1670px; height: 700px; background-image: url(../img/ado_back.jpg); float: left; padding: 40px 40px; box-sizing: border-box; margin-bottom: 30px;}
+
+#sig_container {width: 100%; height: 100%; background-color: #fff;}
+#sig_container ul {display: flex; justify-content: space-between;}
+#sig_container ul li {width: 350px; height: 400px; margin: 20px 20px; text-align: center; font-family: 'Noto Serif KR', serif; color: #8d0000;}
+#sig_container ul li img {width: 100%; height: 100%; object-fit: cover;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#side {width: 250px; height: 700px; background-color: #00ff0020; float: left;
+border-left: 1px solid #ccc; box-sizing: border-box;}
+
+#side ul li {width: 250px; height: 100px; text-align: left; padding: 36px 22px 30px 25px; box-sizing: border-box; display: flex; justify-content: space-between; background-color: #fff;}
+#side ul li:last-child {border-bottom: 1px solid #ccc;}
+#side ul li a {font-size: 24px; font-family: 'Noto Serif KR', serif; font-weight: 400; color: #8d0000;}
+#side ul li a:hover {color: #28c401;}
+#side ul li i {line-height: 2; cursor: pointer;}
+
+#side ul li:nth-of-type(2n) {background-color: #28c401;}
+#side ul li:nth-of-type(2n) a {color: #fff;}
+#side ul li:nth-of-type(2n) a:hover {color: #8d0000;}
+
+
+
+
+
+
+/* 반려견 안내 */
+#dog_rule {width: 1670px; height: 700px; float: left; background-color: #ccc; padding: 50px 50px; box-sizing: border-box; margin-bottom: 30px;}
+#dog_container {text-align: center; position: relative; line-height: 7;}
+#dog_container h2 {font-size: 59px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section_img {width: 1670px; height: 700px; float: left; overflow: hidden; margin-bottom: 30px;}
+
+.slide_container {width: 100%;}
+.slide_container img {width: 100%; height: 700px; object-fit: cover; transition: 1s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rep {width: 1920px; height: 100px; clear: both; text-align: center; font-size: 59px; font-family: 'Abhaya Libre', serif;  padding-top: 15px; letter-spacing: 4px; box-sizing: border-box; font-weight: 900; color: #fff; background-image: url(../img/middle.1.jpg); background-size: cover;}
+
+#rep i {font-size: 40px; color: #8d0000}
+
+
+
+
+
+
+
+#redma {width: 1920px; height: 100px; background-color: #28c401; margin-top: 30px; text-align: center; font-family: 'Abhaya Libre', serif; font-size: 59px; font-weight: 700; color: #fff; padding-top: 15px; box-sizing: border-box;}
+
+
+
+
+
+
+
+#menu {width: 1920px; height: 900px; background-image: url(../img/section_back2.jpg); background-size: cover; padding: 77px 69px; box-sizing: border-box;}
+
+#menu ul {display: flex; flex-wrap: wrap;}
+
+#menu ul li {width: 345px; height: 357px; background-color: #00000020; text-align: center; position: relative;}
+
+#menu ul li a {font-size: 0;}
+
+#menu ul li img {width: 345px; height: 257px; object-fit: cover;     vertical-align: bottom; transition: .5s;}
+
+#menu ul li img:hover {transform: scale(1.03);}
+
+.menu01 li {margin-right: 115px; margin-bottom: 33px;}
+
+.menu01 li:last-child {margin: 0;}
+
+.menu02 li {margin-right: 115px;}
+
+.menu02 li:last-child {margin: 0;}
+
+.menu_text {width: 345px; height: 100px; background-color: #28c401; color: #fff; font-family: 'Noto Serif KR', serif; box-sizing: border-box;}
+
+.menu_text p {font-size: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {width: 1920px; height: 236px; text-align: center; font-size: 18px; padding: 20px 0 20px; box-sizing: border-box; color: #777;}
+
+.footer_sns {height: 24px; display: flex; justify-content: center;}
+
+.footer_sns li a {margin: 0 15px; color: #818181;}
+
+#footer span:last-child {font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal_bg {width: 100%; height: 100%; background-color: rgba(0,0,0,.6); position: fixed; left: 0; top: 0;}
+
+
+
+
+#popup {width: 500px; height: 700px; background-color: #fff; margin: auto; text-align: center; padding: 40px 30px; box-sizing: border-box; position: fixed; left: 50%; top: 50%; transform: translate(-50%,-50%); border-radius: 20px; font-family: 'Noto Sans KR', sans-serif;}
+
+.popup_title {font-size: 45px; border-bottom: 3px solid #8d0000; margin-bottom: 50px;}
+#popup img {width: 300px; height: 200px; margin-bottom: 30px;}
+#popup p {font-size: 19px;}
+#popup span {font-size: 16px;}
+
+.popup_title i {color: blue;}
+
+.notice {font-size: 24px; text-align: center;}
+
+.notice_close {width: 80px; height: 50px; background-color: blue; border-radius: 10%; cursor: pointer; position: absolute; bottom: 50px; transform: translateX(-50%); color: #fff;} 
+
